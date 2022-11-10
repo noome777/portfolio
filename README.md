@@ -38,11 +38,17 @@
 > Java 11, HTML5, CSS3, Javascript ES6+, Spring-framework 5.3.22, Oracle, Spring Security (수정)
 > 
 > [프로젝트 상세 설명](https://github.com/noome777/EveryWare) 참고
+><br><br><br>
 >
->
-> ### 트러블슈팅
+> ### `트러블 슈팅`
+> <details>
+><summary>접기/펼치기 버튼</summary>
+><div markdown="1">
+> 내용
+></div>
+></details>
 > 
-> ### 회고
+> ### `회고`
 
 <hr>
 
@@ -55,8 +61,9 @@
 > Java 11, HTML5, CSS3, Javascript ES6+, Oracle, Spring Security (수정)
 > 
 > [프로젝트 상세 설명](https://github.com/Attadipa/semiGitTestRepo) 참고
+> <br><br><br>
 >
-> ### 트러블슈팅
+> ### `트러블 슈팅`
 > 
-> ### 회고
+> ### `회고`
 
