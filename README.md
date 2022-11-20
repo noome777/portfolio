@@ -43,7 +43,7 @@
 ></div>
 ></details>
 > 
-> [프로젝트 상세 설명](https://github.com/noome777/EveryWare) 참고
+> [프로젝트 코드 및 설명](https://github.com/noome777/EveryWare) 참고
 ><br><br><br>
 >
 > ### `트러블 슈팅`
@@ -64,7 +64,7 @@
 > 개발 인원 : 5명 / 팀 프로젝트
 > 기술 스택 : Java 11, HTML5, CSS3, Javascript ES6+, Oracle, Spring Security (수정)
 > 
-> [프로젝트 상세 설명](https://github.com/Attadipa/semiGitTestRepo) 참고
+> [프로젝트 코드  설명](https://github.com/Attadipa/semiGitTestRepo) 참고
 > <br><br><br>
 >
 > ### `트러블 슈팅`
