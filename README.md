@@ -33,9 +33,15 @@
 > 사내 협업을 위해 메일, 전자 결재, 인사 관리, 근태 관리, 게시판, 일정 관리 등 여러 협업 기능을 한 곳에서 이용할 수 있는 그룹웨어 서비스 <br><br>
 > 개발 기간 : 2022.10.01 ~ 2022.11.12 <br>
 > 개발 인원 : 6명 / 팀 프로젝트
->
+> 담당 역할 : 사용자 오피스 접근 기능 / 근태, 휴가
 > 기술 스택 : <br> 
 > Java 11, HTML5, CSS3, Javascript ES6+, Spring-framework 5.3.22, Oracle, Spring Security (수정)
+><details>
+><summary>erd 설계</summary>
+><div markdown="1">
+>![image](https://user-images.githubusercontent.com/98254235/202899260-643f2059-7026-4a4c-aace-e19538c7d4e8.png)
+></div>
+></details>
 > 
 > [프로젝트 상세 설명](https://github.com/noome777/EveryWare) 참고
 ><br><br><br>
