@@ -32,14 +32,14 @@
 ### 1. EveryWare
 > 사내 협업을 위해 메일, 전자 결재, 인사 관리, 근태 관리, 게시판, 일정 관리 등 여러 협업 기능을 한 곳에서 이용할 수 있는 그룹웨어 서비스 <br><br>
 > 개발 기간 : 2022.10.01 ~ 2022.11.12 <br>
-> 개발 인원 : 6명 / 팀 프로젝트
-> 담당 역할 : 사용자 오피스 접근 기능 / 근태, 휴가
-> 기술 스택 : <br> 
-> Java 11, HTML5, CSS3, Javascript ES6+, Spring-framework 5.3.22, Oracle, Spring Security (수정)
+> 개발 인원 : 6명 / 팀 프로젝트 <br>
+> 기술 스택 : Java 11, HTML5, CSS3, Javascript ES6+, Spring-framework 5.3.22, Oracle, Spring Security (수정)
 ><details>
-><summary>erd 설계</summary>
+><summary>담당 부분 erd 설계</summary>
 ><div markdown="1">
->![image](https://user-images.githubusercontent.com/98254235/202899260-643f2059-7026-4a4c-aace-e19538c7d4e8.png)
+>
+>![EveryWare_MyErd](https://user-images.githubusercontent.com/98254235/202900579-46aa8c68-469a-4405-a02b-422513ba3431.png)
+>
 ></div>
 ></details>
 > 
@@ -62,9 +62,7 @@
 > 경기 침체와 리셀 시장의 확대에 따라 중고 거래 물품의 활성화를 위한 플랫폼 서비스 <br><br>
 > 개발 기간 : 2022.07.11~ 2022.08.26 <br>
 > 개발 인원 : 5명 / 팀 프로젝트
->
-> 기술 스택 : <br>
-> Java 11, HTML5, CSS3, Javascript ES6+, Oracle, Spring Security (수정)
+> 기술 스택 : Java 11, HTML5, CSS3, Javascript ES6+, Oracle, Spring Security (수정)
 > 
 > [프로젝트 상세 설명](https://github.com/Attadipa/semiGitTestRepo) 참고
 > <br><br><br>
