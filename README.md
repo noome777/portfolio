@@ -98,7 +98,7 @@ JSTL 1.2, JSON 2.8.9, AJAX <br>
 ><br>
 >
 > ### `회고`
-> [ANBD 프로젝트 회고록](https://velog.io/@noome777/%ED%8C%8C%EC%9D%B4%EB%84%90-%EB%95%8C-%ED%95%A0-%EA%B2%83)
+> [EveryWare 프로젝트 회고록](https://velog.io/@noome777/EveryWare-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
 <br>
 
 ### <br> ![사본 -사본 -아나바다_로고_화질개선](https://user-images.githubusercontent.com/98254235/204457375-ba9be004-4c79-4ff9-8115-ff492d5134d2.png)
@@ -138,4 +138,4 @@ JSTL 1.2, JSON 2.8.9, AJAX <br>
 ><br>
 >
 > ### `회고`
-> [EveryWare 프로젝트 회고록](https://velog.io/@noome777/EveryWare-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D)
+> [ANBD 프로젝트 회고록](https://velog.io/@noome777/%ED%8C%8C%EC%9D%B4%EB%84%90-%EB%95%8C-%ED%95%A0-%EA%B2%83)
