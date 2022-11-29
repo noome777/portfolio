@@ -49,11 +49,11 @@
 ><details>
 ><summary>javamailsender 사용시 SSLHandshakeException 오류</summary>
 ><div markdown="1">
-><br> 문제 : NaverSMTP 사용시, SMTP 설정에 port 번호를 설정해줬는데도 불구하고 Could not connect to SMTP host 라는 에러 발생 <br><br>
+><br> 문제 : <br> NaverSMTP 사용시, SMTP 설정에 port 번호를 설정해줬는데도 불구하고 Could not connect to SMTP host 라는 에러 발생 <br><br>
 >
 >![Untitled (1)](https://user-images.githubusercontent.com/98254235/204472996-337be8c6-0291-4db7-bb51-6e6208ea2f2b.png)
 >
->해결 : 이메일 전송시에 javamail을 사용하게 되는데 ssl오류로 SSLHandshakeException 이 발생한 것 <br>
+>해결 : <br> 이메일 전송시에 javamail을 사용하게 되는데 ssl오류로 SSLHandshakeException 이 발생한 것 <br>
 >JDK가 TLS 프로토콜이 비활성 되어있거나 TLS 버전이 상이하여 발생하는 것이기 때문에, 자바 메일에서 사용할 기본 TLS 버전을 1.2로 변경해 주어야 하였음.<br><br>
 >따라서, System.setProperty("jdk.tls.client.protocols", "TLSv1.2");과 같은 형식으로 property를 설정해주면 되는데, 프로젝트에서 작성한 자바 코드와 유사하게 >serverInfo.put("mail.smtp.ssl.protocols", "TLSv1.2"); 로 맞추어 적어주어 에러를 해결
 ></div>
@@ -61,22 +61,22 @@
 ><details>
 ><summary>json으로 데이터 전송시 STATUSTEXT PARSEERROR 발생</summary>
 ><div markdown="1">
-> <br> 문제 : ajax에서 서버로 요청 시 데이터가 서버로 넘어가지 않는 문제 <br>
-> 해결 : datatype을 json으로 적었다가 삭제해주었음
+> <br> 문제 : <br> ajax에서 서버로 요청 시 데이터가 서버로 넘어가지 않는 문제 <br><br>
+> 해결 : <br> datatype을 json으로 적었다가 삭제해주었음
 ></div>
 ></details>
 ><details>
 ><summary>쿠키 사용하여 아이디 저장이 잘 안 되는 문제</summary>
 ><div markdown="1">
-> <br> 문제 : 아이디 저장 체크박스를 해제 한 상태에서도 로그인 화면으로 다시 돌아갔을 때 아이디가 저장되어 있어, 아이디 저장 기능이 제대로 구현하지 못하고 있는 상태. <br>
-> 해결 : 아이디 저장 체크박스를 체크했을 때 vs 해제했을 때로 구분하여서 해제하였을 경우에는 cookie의 setMaxage(0); 으로  주어 쿠키가 제거될 수 있도록 함. (setMaxage 로 시간 설정을 해주는 이유는 쿠키에는 remove 메서드가 없으므로)
+> <br> 문제 : <br> 아이디 저장 체크박스를 해제 한 상태에서도 로그인 화면으로 다시 돌아갔을 때 아이디가 저장되어 있어, 아이디 저장 기능이 제대로 구현하지 못하고 있는 상태. <br><br>
+> 해결 : <br> 아이디 저장 체크박스를 체크했을 때 vs 해제했을 때로 구분하여서 해제하였을 경우에는 cookie의 setMaxage(0); 으로  주어 쿠키가 제거될 수 있도록 함. (setMaxage 로 시간 설정을 해주는 이유는 쿠키에는 remove 메서드가 없으므로)
 > <br> 만료 시킨 후에 addCookie를 하면 만료시켰다는 것을 응답 헤더에 추가하여 쿠키가 삭제가 된다.
 ></div>
 ></details>
 ><details>
 ><summary>깃허브 pull이전에 메인 브랜치에서 커밋 시 대처 방안</summary>
 ><div markdown="1">
-> <br> 문제 :  작업 내용을 merge 한 이후, 통합된 파일 내용을 pull을 받지 않고 프로젝트를 빌드하였을 때, 톰켓 에러가 발생하였음.<br>
+> <br> 문제 : <br> 작업 내용을 merge 한 이후, 통합된 파일 내용을 pull을 받지 않고 프로젝트를 빌드하였을 때, 톰켓 에러가 발생하였음.<br><br>
 > 해결 : <br>
 > 1. 우선, 메인브랜치에서 풀을 당겨서 못받았던 파일을 다시 모두 받아준다. <br>
 > 2. 풀 당긴 메인브랜치에서 새롭게 브랜치 생성한다.  <br>
@@ -86,8 +86,8 @@
 ><details>
 ><summary>java.lang.ClassNotFoundException 에러</summary>
 ><div markdown="1">
-><br> 문제 : java.lang.ClassNotFoundException 에러 발생 <br>
-> 해결 : Classpath에 로드하고자 하는 Class가 발견되지 않았을 때 발생한다. 보통은 빌드에 문제가 있는 경우로 clean이나 Class파일 삭제 후 재빌드를 수행하여 해결하였음.
+><br> 문제 : <br>java.lang.ClassNotFoundException 에러 발생 <br><br>
+> 해결 :  <br> Classpath에 로드하고자 하는 Class가 발견되지 않았을 때 발생한다. 보통은 빌드에 문제가 있는 경우로 clean이나 Class파일 삭제 후 재빌드를 수행하여 해결하였음.
 > 따라서, 프로젝트의 OverworkVo 클래스를 삭제 후 다시 생성해주니 에러가 발생하지 않고 프로젝트가 잘 실행이 됨
 ></div>
 ></details>
