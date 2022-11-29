@@ -66,9 +66,12 @@
 ></div>
 ></details>
 ><details>
-><summary>쿠키 사용하여 아이디 저장이 잘 안 되는 문제</summary>
+><summary>쿠키 사용하여 아이디 저장이 잘 되지  문제</summary>
 ><div markdown="1">
 > <br> 문제 : <br> 아이디 저장 체크박스를 해제 한 상태에서도 로그인 화면으로 다시 돌아갔을 때 아이디가 저장되어 있어, 아이디 저장 기능이 제대로 구현하지 못하고 있는 상태. <br><br>
+> 
+> ![image](https://user-images.githubusercontent.com/98254235/204480508-7ac9bead-3e40-4f53-a122-1b9594c10846.png)
+> <br><br>
 > 해결 : <br> 아이디 저장 체크박스를 체크했을 때 vs 해제했을 때로 구분하여서 해제하였을 경우에는 cookie의 setMaxage(0); 으로  주어 쿠키가 제거될 수 있도록 함. (setMaxage 로 시간 설정을 해주는 이유는 쿠키에는 remove 메서드가 없으므로)
 > <br> 만료 시킨 후에 addCookie를 하면 만료시켰다는 것을 응답 헤더에 추가하여 쿠키가 삭제가 된다.
 ></div>
