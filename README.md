@@ -30,10 +30,10 @@
 ## 📌Project.
 ### ![크기변환 EveryWareLogo](https://user-images.githubusercontent.com/98254235/204456980-a975052e-6113-4ab5-8c30-85bfe22fea17.png)
 > 사내 협업을 위해 메일, 전자 결재, 인사 관리, 근태 관리, 게시판, 일정 관리 등 여러 협업 기능을 한 곳에서 이용할 수 있는 그룹웨어 서비스 <br><br>
-> 개발 기간 : 2022.10.01 ~ 2022.11.12 <br>
-> 개발 인원 : 6명 / 팀 프로젝트 <br>
+> 개발 기간 : <br> 2022.10.01 ~ 2022.11.12 <br><br>
+> 개발 인원 :<br>  6명 / 팀 프로젝트 <br><br>
 > 기술 스택 : <br> Java 11, HTML5, CSS3, Javascript ES6+, JSP, Spring-framework 5.3.22, Oracle database 21c XE - SQL Developer, Spring Security, mybatis, jQuery 3.6.1,
-JSTL 1.2, JSON 2.8.9, AJAX
+JSTL 1.2, JSON 2.8.9, AJAX <br>
 ><details>
 ><summary>담당 부분 erd 설계</summary>
 ><div markdown="1">
@@ -44,7 +44,7 @@ JSTL 1.2, JSON 2.8.9, AJAX
 ></details>
 > 
 > [프로젝트 코드 및 설명](https://github.com/noome777/EveryWare) 참고
-><br><br><br>
+><br><br>
 >
 > ### `트러블 슈팅`
 ><details>
@@ -67,7 +67,7 @@ JSTL 1.2, JSON 2.8.9, AJAX
 ></div>
 ></details>
 ><details>
-><summary>쿠키 사용하여 아이디 저장이 잘 되지  문제</summary>
+><summary>쿠키 사용하여 아이디 저장이 잘 되지 않는 문제</summary>
 ><div markdown="1">
 > <br> 문제 : <br> 아이디 저장 체크박스를 해제 한 상태에서도 로그인 화면으로 다시 돌아갔을 때 아이디가 저장되어 있어, 아이디 저장 기능이 제대로 구현하지 못하고 있는 상태. <br><br>
 > 
@@ -102,22 +102,39 @@ JSTL 1.2, JSON 2.8.9, AJAX
 
 ### ![사본 -사본 -아나바다_로고_화질개선](https://user-images.githubusercontent.com/98254235/204457375-ba9be004-4c79-4ff9-8115-ff492d5134d2.png)
 > 경기 침체와 리셀 시장의 확대에 따라 중고 거래 물품의 활성화를 위한 플랫폼 서비스 <br><br>
-> 개발 기간 : 2022.07.11~ 2022.08.26 <br>
-> 개발 인원 : 5명 / 팀 프로젝트 <br>
+> 개발 기간 : <br> 2022.07.11~ 2022.08.26 <br><br>
+> 개발 인원 : <br> 5명 / 팀 프로젝트 <br><br>
 > 기술 스택 : <br>
 > Java 11, HTML5, CSS3, Javascript ES6+, Oracle, JSP, Oracle database 21c XE - SQL Developer, jQuery 3.6.1,
-JSTL 1.2, JSON 2.8.9, AJAX
-> 
+JSTL 1.2, JSON 2.8.9, AJAX <br>
+><details>
+><summary>담당 부분 erd 설계</summary>
+><div markdown="1">
+>
+>![image](https://user-images.githubusercontent.com/98254235/204517687-ffe8d8ab-6c1b-44da-ad63-fce1d745c00d.png)
+>
+></div>
+></details>
+>
 > [프로젝트 코드  설명](https://github.com/Attadipa/semiGitTestRepo) 참고
-> <br><br><br>
+><br><br>
 >
 > ### `트러블 슈팅`
 > <details>
-><summary>문제해결</summary>
+><summary>게시글 검색시 조회는 잘 되지만, 페이지를 변경하면 조회한 결과가 잘 반영되지 않는 문제</summary>
 ><div markdown="1">
-> 내용
+> <br>  문제 : <br> 제목, 내용에 따른 검색 시 페이지 수는 잘 노출되지만, 다음 페이지를 누르면 다시 list의 첫 페이지로 이동되는 문제<br><br> 
+> 해결 : <br> controller에서 게시글 검색 조건인 condition과 입력할 키워드의 keyword의 값을 setAttribute 하지 않아서 생긴 문제로 판단하여, controller에서 HttpServletRequest 객체를 이용하여 조회한 결과의 값을 view로 넘겨줄 수 있도록 코드를 변경하였음.
 ></div>
 ></details>
-> 
+> <details>
+><summary>로그인한 유저가 없을 시, 공지사항에 전혀 접근 하지 못함</summary>
+><div markdown="1">
+> <br>  문제 : <br> 로그인한 유저가 없을 시 공지사항에 전혀 접근 하지 못하고 있으므로 로그인한 유저가 없을 경우 게시물 상세 조회가 불가능 한 문제<br><br> 
+> 해결 : <br> 중첩 if문을 이용하여 jstl 태그를 이용하여 코드를 변경하여 작성하였음. 로그인을 안 한 유저 또는 로그인을 했지만 관리자가 아닌 경우, 글을 삭제할 수 있는 권한이 없으므로 글 삭제 버튼을 보이지 않도록 하였음. 반면, 로그인 한 유저이면서 관리자인 경우, 글을 삭제할 수 있는 버튼을 보일 수 있도록 하였음.
+></div>
+></details>
+><br>
+>
 > ### `회고`
 
