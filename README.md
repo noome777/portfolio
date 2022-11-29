@@ -32,7 +32,8 @@
 > 사내 협업을 위해 메일, 전자 결재, 인사 관리, 근태 관리, 게시판, 일정 관리 등 여러 협업 기능을 한 곳에서 이용할 수 있는 그룹웨어 서비스 <br><br>
 > 개발 기간 : 2022.10.01 ~ 2022.11.12 <br>
 > 개발 인원 : 6명 / 팀 프로젝트 <br>
-> 기술 스택 : Java 11, HTML5, CSS3, Javascript ES6+, Spring-framework 5.3.22, Oracle, Spring Security (수정)
+> 기술 스택 : <br> Java 11, HTML5, CSS3, Javascript ES6+, JSP, Spring-framework 5.3.22, Oracle database 21c XE - SQL Developer, Spring Security, mybatis, jQuery 3.6.1,
+JSTL 1.2, JSON 2.8.9, AJAX
 ><details>
 ><summary>담당 부분 erd 설계</summary>
 ><div markdown="1">
@@ -102,8 +103,10 @@
 ### ![사본 -사본 -아나바다_로고_화질개선](https://user-images.githubusercontent.com/98254235/204457375-ba9be004-4c79-4ff9-8115-ff492d5134d2.png)
 > 경기 침체와 리셀 시장의 확대에 따라 중고 거래 물품의 활성화를 위한 플랫폼 서비스 <br><br>
 > 개발 기간 : 2022.07.11~ 2022.08.26 <br>
-> 개발 인원 : 5명 / 팀 프로젝트
-> 기술 스택 : Java 11, HTML5, CSS3, Javascript ES6+, Oracle, Spring Security (수정)
+> 개발 인원 : 5명 / 팀 프로젝트 <br>
+> 기술 스택 : <br>
+> Java 11, HTML5, CSS3, Javascript ES6+, Oracle, JSP, Oracle database 21c XE - SQL Developer, jQuery 3.6.1,
+JSTL 1.2, JSON 2.8.9, AJAX
 > 
 > [프로젝트 코드  설명](https://github.com/Attadipa/semiGitTestRepo) 참고
 > <br><br><br>
