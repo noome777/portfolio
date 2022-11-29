@@ -99,9 +99,9 @@ JSTL 1.2, JSON 2.8.9, AJAX <br>
 >
 > ### `회고`
 > [ANBD 프로젝트 회고록](https://velog.io/@noome777/%ED%8C%8C%EC%9D%B4%EB%84%90-%EB%95%8C-%ED%95%A0-%EA%B2%83)
-<br><br>
+<br>
 
-### ![사본 -사본 -아나바다_로고_화질개선](https://user-images.githubusercontent.com/98254235/204457375-ba9be004-4c79-4ff9-8115-ff492d5134d2.png)
+### <br> ![사본 -사본 -아나바다_로고_화질개선](https://user-images.githubusercontent.com/98254235/204457375-ba9be004-4c79-4ff9-8115-ff492d5134d2.png)
 > 경기 침체와 리셀 시장의 확대에 따라 중고 거래 물품의 활성화를 위한 플랫폼 서비스 <br><br>
 > 개발 기간 : <br> 2022.07.11~ 2022.08.26 <br><br>
 > 개발 인원 : <br> 5명 / 팀 프로젝트 <br><br>
