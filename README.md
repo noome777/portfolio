@@ -1,6 +1,6 @@
 # portfolio 
 
-![크기변환 me](https://user-images.githubusercontent.com/98254235/201081319-f2d3f92a-e2f2-4af3-bc58-87319daac266.jpg)
+
 
 >안녕하세요. 꾸준히 성장하는 개발자 이아름입니다.
 
